@@ -7,10 +7,10 @@ import lab02.Stock;
 
 public class StockTest {
 
-    private static Stock sample;
+    private  Stock sample;
 
-    @BeforeAll
-    public static void setUp(){
+    @BeforeEach
+    public void setUp(){
         sample = new Stock("Junit inc.",69);
     }
 

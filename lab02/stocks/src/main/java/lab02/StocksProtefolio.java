@@ -36,6 +36,11 @@ public class StocksProtefolio {
         }
     }
 
+    public List<Stock> getStocks() {
+
+        return this.stocks;
+    }
+
     public double totalValue(){
 
         return this.stocks.stream()

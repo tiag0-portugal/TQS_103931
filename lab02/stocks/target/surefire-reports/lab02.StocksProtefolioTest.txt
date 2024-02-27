@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: lab02.StockTest
+Test set: lab02.StocksProtefolioTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in lab02.StockTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s - in lab02.StocksProtefolioTest

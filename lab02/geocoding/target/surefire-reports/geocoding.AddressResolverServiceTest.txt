@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: geocoding.AddressResolverServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in geocoding.AddressResolverServiceTest
+findAddress  Time elapsed: 0.036 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at geocoding.AddressResolverServiceTest.setUp(AddressResolverServiceTest.java:21)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @62e136d3
+	at geocoding.AddressResolverServiceTest.setUp(AddressResolverServiceTest.java:21)
+
